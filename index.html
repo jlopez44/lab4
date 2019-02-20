@@ -7,83 +7,83 @@
   </head>
   <body>
     <h1>Volunteer Form</h1>
-    <form action = "http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method = "post">
-      <div style = "border:10px solid; padding:5px;">
-        <h3>My Information</h3>
+    <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method = "post">
+      <div style="border:10px solid; padding:5px;">
+        <h3>my information</h3>
         <fieldset>
           <div>
-            <label>First Name: 
-              <input type = "text" name = "first_name_field">
+            <label>first Name: 
+              <input type="text" name="f_name_field">
             </label>
           </div>
           <div>
-            <label>Last Name: 
-              <input type = "text" name = "last_name_field">
+            <label>last Name: 
+              <input type="text" name="l_name_field">
             </label>
           </div>
           <div>
-            <label>Phone Number: 
-              <input type = "text" name = "phone_field">
+            <label>phone number: 
+              <input type="text" name="phone_number_field">
             </label>
           </div>
           <div>
-            <label>Email Address: 
-              <input type = "email" name = "email_field">
+            <label>email address: 
+              <input type="email" name="email_address_field">
             </label>
           </div>
           <div>
-            <label>Gender:
-              <input type = "radio" name = "gender_field" value = "Male"> Male
+            <label>gender:
+              <input type="radio" name="gender_field" value="male"> Male
             </label> 
             <label>
-              <input type = "radio" name = "gender_field" value = "Female"> Female
+              <input type="radio" name="gender_field" value="female"> Female
             </label>
           </div>
           <label>Age
-            <select name = "age_field">
-              <option value = "under 18">Under 18</option>
-              <option value = "18-24">18-24</option>
-              <option value = "25-34">25-34</option>
-              <option value = "35-44">35-44</option>
-              <option value = "45-54">45-54</option>
-              <option value = "55-64">55-64</option>
-              <option value = "65 and Older">65 and Older</option>
+            <select name="age_field">
+              <option value="under 18">Under 18</option>
+              <option value="18-24">18-24</option>
+              <option value="25-34">25-34</option>
+              <option value="35-44">35-44</option>
+              <option value="45-54">45-54</option>
+              <option value="55-64">55-64</option>
+              <option value="65 and Older">65 and Older</option>
             </select>
           </label>
         </fieldset>
       </div>
       <h3>Availability</h3>
-      <div style = "border:10px solid; padding:5px;">
+      <div style="border:5px solid; padding:5px;">
         <div>
-          <label>Sunday: <input type ="checkbox" name = "available_field[]" value="Sunday"></label>
+          <label>sunday: <input type="checkbox" name="avail-field[]" value="sunday"></label>
         </div>
         <div>
-          <label>Monday: <input type = "checkbox" name = "available_field[]" value = "Monday"></label>
+          <label>monday: <input type="checkbox" name="avail-field[]" value="monday"></label>
         </div>
         <div>
-          <label>Tuesday: <input type = "checkbox" name = "available_field[]" value = "Tuesday"></label>
+          <label>tuesday: <input type="checkbox" name="avail-field[]" value="tuesday"></label>
         </div>
         <div>
-          <label>Wednesday: <input type = "checkbox" name = "available_field[]" value = "Wednesday"></label>
+          <label>wednesday: <input type="checkbox" name="avail-field[]" value="wednesday"></label>
         </div>
         <div>
-          <label>Thursday: <input type = "checkbox" name = "available_field[]" value = "Thursday"></label>
+          <label>thursday: <input type="checkbox" name="avail-field[]" value="thursday"></label>
         </div>
         <div>
-          <label>Friday: <input type = "checkbox" name = "available_field[]" value = "Friday"></label>
+          <label>friday: <input type="checkbox" name="avail-field[]" value="friday"></label>
         </div>
         <div>
-          <label>Saturday: <input type = "checkbox" name = "avialable_field[]" value = "Saturday"></label>
+          <label>saturday: <input type="checkbox" name="avial-field[]" value="saturday"></label>
         </div>
       </div>
-      <div class= "CommentBox">
-        <textarea rows = "4" cols = "60" name = "comments_field">Comments</textarea>
+      <div class="comment-box">
+        <textarea rows="4" cols="60" name="comments_field">comments</textarea>
       </div>
-      <div class = "HiddenField">
-        <input type = "hidden" name = "hidden_field" value = "Jose Lopez">
+      <div class="hidden-field">
+        <input type="hidden" name="hidden_field" value="Jose Lopez">
       </div>
-      <div class ="Submit Button">
-        <input type = "Submit" value="Send Me">
+      <div class="submit-button">
+        <input type="submit" value="send me">
       </div>
     </form>
   </body>
